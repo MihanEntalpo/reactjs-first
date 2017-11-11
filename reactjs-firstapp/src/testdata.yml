@@ -1,0 +1,13 @@
+nodes:
+    -   id: 1
+        content: Первый узел
+        type: text
+        parent: null
+    -   id: 2
+        content: Второй узел
+        type: text
+        parent: 1
+    -   id: 3
+        content: Третий узел
+        type: text
+        parent: 1

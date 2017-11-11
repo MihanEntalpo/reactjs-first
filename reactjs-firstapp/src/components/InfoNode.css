@@ -1,0 +1,42 @@
+.InfoNode
+{
+    display:block;
+}
+
+.InfoNode .node
+{
+    background-color: #eee;
+    padding:10px;
+    text-align:left;
+}
+
+.InfoNode:hover,
+.InfoNode.active
+{
+    background-color: #f0f0f0;
+}
+
+.InfoNode.nesting-level--1
+{
+   padding-left: 16px;
+}
+
+.InfoNode.nesting-level--2
+{
+   padding-left: 32px;
+}
+
+.InfoNode.nesting-level--3
+{
+   padding-left: 48px;
+}
+
+.InfoNodesList
+{
+    display:block;
+}
+
+.InfoNodesList .InfoNode
+{
+    display:block;
+}
